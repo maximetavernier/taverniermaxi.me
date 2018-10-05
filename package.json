@@ -35,7 +35,6 @@
   "devDependencies": {
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.8",
-    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^6.4.1",
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -48,9 +47,10 @@
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
     "rimraf": "^2.6.2",
+    "style-loader": "^0.23.0",
     "ts-loader": "^4.2.0",
     "tslint": "^5.11.0",
-    "typescript": "^2.8.3",
+    "typescript": "^2.9.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   }

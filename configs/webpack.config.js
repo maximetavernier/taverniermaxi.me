@@ -20,6 +20,11 @@ module.exports = {
                     presets: ['react', 'es2015', 'env'],
                     plugins: ['add-module-exports', 'react-html-attrs', 'transform-class-properties']
                 }
+            },
+            {
+                test: /\.css$/,
+                exclude: /(node_modules)/,
+                use: [ 'style-loader', 'css-loader' ]
             }
         ]
     }
