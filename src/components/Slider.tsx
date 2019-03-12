@@ -1,7 +1,9 @@
 import React from 'react';
 import Section from './Slider/Section';
 import SectionModel from "@models/SectionModel";
+
 const $ = require('jquery');
+const pagepiling = require('./Slider/pagepiling.min');
 
 interface SliderProps {
     sections: SectionModel[];

@@ -5,6 +5,9 @@
 
     'use strict';
 
+    const Draggabilly = './draggabilly.pkgd.min';
+    const dynamics = './dynamics.min';
+
     // window sizes
     var win = {width: window.innerWidth, height: window.innerHeight};
 

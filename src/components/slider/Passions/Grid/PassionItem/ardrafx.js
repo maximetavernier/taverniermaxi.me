@@ -3,6 +3,8 @@
  */
 ;(function(window) {
 
+    const anime = require('./anime.min');
+
     /**
      * FolderFx obj.
      */

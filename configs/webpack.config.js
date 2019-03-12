@@ -1,4 +1,4 @@
-var path = require('path');
+const path = require('path');
 
 function resolve(dir) {
     return path.resolve(__dirname, '..', dir);
@@ -6,7 +6,8 @@ function resolve(dir) {
 
 module.exports = {
     entry: [
-        resolve('src/bundle.js')
+        resolve('src/bundle.js'),
+
     ],
     output: {
         filename: 'index.js',
