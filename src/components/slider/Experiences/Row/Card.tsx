@@ -19,7 +19,7 @@ export default class RowCard extends React.Component<ExperiencesRowCardProps, an
 
         return (
             <div className="card">
-                <img className="card_image" src={`/assets/${exp.asset}`} />
+                <img className="card_image" src={`${exp.asset}`} />
                 <a href={exp.url} target="_blank">
                     <div className="card_content">
                         <h4 className="card_title">{exp.title}</h4>

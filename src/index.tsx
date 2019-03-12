@@ -9,8 +9,11 @@ import Loader from "./components/Loader";
 import DataModel from "@models/DataModel";
 
 (() => {
-    const lang: string = navigator.language;
+    const lang: string = navigator.language.substr(0, 2);
+    console.log(lang);
+    console.log(`../assets/${lang}.js`);
     const data: DataModel = require(`../assets/${lang}.js`);
+    console.log(data);
     document.title = data.title;
 
     ReactDOM.render(<Loader/>, document.getElementById('react-loader'));

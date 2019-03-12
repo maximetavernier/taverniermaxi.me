@@ -20,7 +20,7 @@ export default class Profil extends React.Component<AboutProfilProps> {
 
         return (
             <figure className='about-profil'>
-                <img src={`/assets/${info.asset}`} alt={info.asset}/>
+                <img src={`${info.asset}`} alt={info.asset}/>
                 <figcaption>
                     <p>
                         {info.subtitle.map((item: string, key: number) =>

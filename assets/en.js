@@ -8,7 +8,7 @@ module.exports = {
       info: {
         firstname: 'Maxime',
         lastname: 'Tavernier',
-        asset: 'me.jpg',
+        asset: 'assets/me.jpg',
         title: 'Online Portfolio',
         subtitle: [
           'Full-time developer,',
@@ -36,7 +36,7 @@ module.exports = {
           url: 'http://www.esiee.fr/',
           subtitle: 'École Supérieure d\'Ingénieurs en Électronique et Électrotechnique',
           descr: 'Engineering cycle - 1st year',
-          asset: 'esiee.png'
+          asset: 'assets/esiee.png'
         },
         {
           start: '2012',
@@ -46,7 +46,7 @@ module.exports = {
           url: 'http://www.epita.fr/',
           subtitle: 'École Pour l’Informatique et les Techniques Avancées',
           descr: 'Master - MIT major (Multimédia & Information Technologies)',
-          asset: 'epita.png'
+          asset: 'assets/epita.png'
         },
         {
           start: 'Jun. 2009',
@@ -56,7 +56,7 @@ module.exports = {
           url: 'http://www.nrgtelecom.co.uk/',
           subtitle: 'Website creation and management',
           descr: 'Web development under the CMS \'Joomla\' (HTML/CSS)',
-          asset: 'nrgtelecom.png'
+          asset: 'assets/nrgtelecom.png'
         },
         {
           start: 'Oct. 2014',
@@ -66,7 +66,7 @@ module.exports = {
           url: 'https://www.wakanim.tv/fr/v2',
           subtitle: 'Japanese animation broadcast service',
           descr: 'Web integration in ASP.NET under the CMS \'MonoX\' (C#, HTML5/CSS3, T-SQL)',
-          asset: 'wakanim.png'
+          asset: 'assets/wakanim.png'
         },
         {
           start: 'May 2016',
@@ -76,7 +76,7 @@ module.exports = {
           url: 'http://www.bitgaiwang.com/',
           subtitle: 'E-commerce platform & O2O business',
           descr: 'Web integration in backend. Security and functionnal Testing (C#, HTML5/CSS3, T-SQL)',
-          asset: 'gatewang.png'
+          asset: 'assets/gatewang.png'
         }
       ]
     },
@@ -310,7 +310,7 @@ module.exports = {
         {
           title: 'YakaLfer',
           descr: 'Resource management intranet',
-          asset: '/assets/yakalfer/logo.jpg',
+          asset: 'assets/yakalfer/logo.jpg',
           technosicon: [
             'java',
             'mysql',
@@ -318,19 +318,19 @@ module.exports = {
           ],
           gallery: [
             {
-              src: '/assets/yakalfer/logo.jpg',
+              src: 'assets/yakalfer/logo.jpg',
               caption: 'Logo'
             },
             {
-              src: '/assets/yakalfer/01.jpg',
+              src: 'assets/yakalfer/01.jpg',
               caption: 'Client list view example, with a useful side bar to navigate quickly'
             },
             {
-              src: '/assets/yakalfer/02.jpg',
+              src: 'assets/yakalfer/02.jpg',
               caption: 'Example of a route as seen by a truck driver'
             },
             {
-              src: '/assets/yakalfer/03.jpg',
+              src: 'assets/yakalfer/03.jpg',
               caption: 'Bills view as seen by a client'
             }
           ]
@@ -338,25 +338,25 @@ module.exports = {
         {
           title: 'FitIn',
           descr: 'Platform for tips exchange',
-          asset: '/assets/fitin/logo.jpg',
+          asset: 'assets/fitin/logo.jpg',
           technosicon: [
             'android'
           ],
           gallery: [
             {
-              src: '/assets/fitin/logo.jpg',
+              src: 'assets/fitin/logo.jpg',
               caption: 'Logo'
             },
             {
-              src: '/assets/fitin/01.jpg',
+              src: 'assets/fitin/01.jpg',
               caption: 'Choice of interests'
             },
             {
-              src: '/assets/fitin/02.jpg',
+              src: 'assets/fitin/02.jpg',
               caption: 'List of nearby activities'
             },
             {
-              src: '/assets/fitin/03.jpg',
+              src: 'assets/fitin/03.jpg',
               caption: 'Description of an apartment'
             }
           ]
@@ -364,7 +364,7 @@ module.exports = {
         {
           title: 'Musa',
           descr: 'Musical universe social network',
-          asset: '/assets/musa/logo.jpg',
+          asset: 'assets/musa/logo.jpg',
           technosicon: [
             'android',
             'vertx',
@@ -373,19 +373,19 @@ module.exports = {
           ],
           gallery: [
             {
-              src: '/assets/musa/logo.jpg',
+              src: 'assets/musa/logo.jpg',
               caption: 'Logo'
             },
             {
-              src: '/assets/musa/01.png',
+              src: 'assets/musa/01.png',
               caption: 'News'
             },
             {
-              src: '/assets/musa/02.png',
+              src: 'assets/musa/02.png',
               caption: 'Navigation panel'
             },
             {
-              src: '/assets/musa/03.png',
+              src: 'assets/musa/03.png',
               caption: 'Audio player'
             }
           ]
@@ -393,7 +393,7 @@ module.exports = {
         {
           title: 'Youcast',
           descr: 'Video broadcasting service, Youtube like',
-          asset: '/assets/youcast/logo.jpg',
+          asset: 'assets/youcast/logo.jpg',
           technosicon: [
             'android',
             'retrofit',
@@ -402,27 +402,27 @@ module.exports = {
           ],
           gallery: [
             {
-              src: '/assets/youcast/logo.jpg',
+              src: 'assets/youcast/logo.jpg',
               caption: 'Logo'
             },
             {
-              src: '/assets/youcast/01.png',
+              src: 'assets/youcast/01.png',
               caption: 'List of videos available from the service'
             },
             {
-              src: '/assets/youcast/02.png',
+              src: 'assets/youcast/02.png',
               caption: 'Filtering by name'
             },
             {
-              src: '/assets/youcast_03.png',
+              src: 'assets/youcast_03.png',
               caption: 'Description of a video in a portrait layout...'
             },
             {
-              src: '/assets/youcast/04.png',
+              src: 'assets/youcast/04.png',
               caption: '... or a landscape layout'
             },
             {
-              src: '/assets/youcast/05.png',
+              src: 'assets/youcast/05.png',
               caption: 'Viewing video'
             }
           ]
@@ -439,29 +439,29 @@ module.exports = {
           icon: 'music',
           content: [
             {
-              src: '/assets/music/pcaif1.jpg',
+              src: 'assets/music/pcaif1.jpg',
               short: 'Singer',
               caption: 'Les petits chanteurs d\'Asnières - 1999'
             },
             {
-              src: '/assets/music/pcaif2.jpg',
+              src: 'assets/music/pcaif2.jpg',
               short: 'Pianist',
               caption: 'Les petits chanteurs d\'Asnières - 2013'
             },
             {
-              src: '/assets/music/pcaif3.jpg',
+              src: 'assets/music/pcaif3.jpg',
               short: 'Singer',
               caption: 'Les petits chanteurs d\'Asnières - 2014'
             },
             {
-              src: '/assets/music/pcaif4.jpg',
+              src: 'assets/music/pcaif4.jpg',
               short: 'Singer',
               caption: 'Les petits chanteurs d\'Asnières - 2014'
             },
             {
-                src: '/assets/music/sono.png',
-                short: 'Soundman',
-                caption: 'Installation & mixing for some concerts'
+              src: 'assets/music/sono.png',
+              short: 'Soundman',
+              caption: 'Installation & mixing for some concerts'
             }
           ]
         },
@@ -470,52 +470,52 @@ module.exports = {
           icon: 'photo',
           content: [
             {
-              src: '/assets/photo/instagram01.jpg',
+              src: 'assets/photo/instagram01.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram02.jpg',
+              src: 'assets/photo/instagram02.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram03.jpg',
+              src: 'assets/photo/instagram03.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram04.jpg',
+              src: 'assets/photo/instagram04.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram05.jpg',
+              src: 'assets/photo/instagram05.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram06.jpg',
+              src: 'assets/photo/instagram06.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram07.jpg',
+              src: 'assets/photo/instagram07.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram08.jpg',
+              src: 'assets/photo/instagram08.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/instagram09.jpg',
+              src: 'assets/photo/instagram09.jpg',
               short: '',
               caption: 'From Instagram (https://www.instagram.com/maxlarsouille/)'
             },
             {
-              src: '/assets/photo/montmartre.jpg',
+              src: 'assets/photo/montmartre.jpg',
               short: '',
               caption: 'Butte Montmartre - Paris'
             }
@@ -526,42 +526,42 @@ module.exports = {
           icon: 'plane',
           content: [
             {
-              src: '/assets/travel/berlin.jpg',
+              src: 'assets/travel/berlin.jpg',
               short: 'Germany',
               caption: 'Berlin Wall - Berlin, Germany'
             },
             {
-              src: '/assets/travel/guangzhou.jpg',
+              src: 'assets/travel/guangzhou.jpg',
               short: 'China',
               caption: 'Canton\'s Tower - Guangzhou, China'
             },
             {
-              src: '/assets/travel/hongkong.jpg',
+              src: 'assets/travel/hongkong.jpg',
               short: 'Hong Kong',
               caption: 'Mong Kok - Hong Kong'
             },
             {
-              src: '/assets/travel/annecy.jpg',
+              src: 'assets/travel/annecy.jpg',
               short: 'Annecy',
               caption: 'Annecy lake - Annecy, France'
             },
             {
-              src: '/assets/travel/singapore.jpg',
+              src: 'assets/travel/singapore.jpg',
               short: 'Singapore',
               caption: 'Marina Bay & Garden by the bay - Singapore'
             },
             {
-              src: '/assets/travel/siemreap.jpg',
+              src: 'assets/travel/siemreap.jpg',
               short: 'Cambodia',
               caption: 'Angkor Wat - Siem Reap, Cambodia'
             },
             {
-              src: '/assets/travel/hanoi.jpg',
+              src: 'assets/travel/hanoi.jpg',
               short: 'Vietnam',
               caption: 'Phô Hàng Gai - Hanoi, Vietnam'
             },
             {
-              src: '/assets/travel/phuket.jpg',
+              src: 'assets/travel/phuket.jpg',
               short: 'Thailand',
               caption: 'Raya Island - Phuket, Thailand'
             }
@@ -572,22 +572,22 @@ module.exports = {
           icon: 'globe',
           content: [
             {
-              src: '/assets/passions/football.jpg',
+              src: 'assets/passions/football.jpg',
               short: 'Sport',
               caption: 'Football (& other sports)'
             },
             {
-              src: '/assets/passions/cooking.jpg',
+              src: 'assets/passions/cooking.jpg',
               short: 'Cooking',
               caption: 'Amateur cook'
             },
             {
-              src: '/assets/passions/videomaking.jpg',
+              src: 'assets/passions/videomaking.jpg',
               short: 'Video',
               caption: 'Realization & video editing (https://www.youtube.com/channel/UCFRGIh_bs7CarhfiCnBupAQ)'
             },
             {
-              src: '/assets/passions/videogames.jpg',
+              src: 'assets/passions/videogames.jpg',
               short: 'Video games',
               caption: 'Fan of video games, especially the Final Fantasy series'
             }
@@ -620,7 +620,7 @@ module.exports = {
       help: {
         cv: {
           caption: 'Find my resume here.',
-          link: '../assets/cv/en.pdf'
+          link: 'assets/cv/en.pdf'
         },
         info: {
           caption: 'About...',

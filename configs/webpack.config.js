@@ -10,7 +10,7 @@ module.exports = {
     ],
     output: {
         filename: 'index.js',
-        path: resolve('views/js')
+        path: resolve('assets/js')
     },
     module: {
         rules: [

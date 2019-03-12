@@ -62,5 +62,8 @@ typings/
 
 *.idea
 *dist
-js
-src/**/*.js*
+src/**/*.js.map
+
+src/index.js
+src/bundle.js
+assets/js/index.js

@@ -46,7 +46,7 @@ export default class HelpRow extends React.Component<HelpRowProps, any> {
 
     render() {
         const { help } = this.props;
-        const { cv, infos } = help;
+        const { cv, info } = help;
 
         return (
             <div className="help-row">
@@ -60,9 +60,9 @@ export default class HelpRow extends React.Component<HelpRowProps, any> {
                     <i className="devicons devicons-help"></i>
                 </a>
                 <ReactTooltip id="help-infos" place="bottom" type="dark" effect="float">
-                    <p>{infos.caption}</p>
+                    <p>{info.caption}</p>
                 </ReactTooltip>
-                <Modal info={infos} />
+                <Modal info={info} />
             </div>
         );
     }

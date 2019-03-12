@@ -3,5 +3,5 @@ import HelpInfos from "./HelpModel/HelpInfos";
 
 export default interface HelpModel {
     cv: CVLink;
-    infos: HelpInfos;
+    info: HelpInfos;
 }

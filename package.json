@@ -5,10 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p configs/tsconfig.json && npx babel src/index.js --out-file src/bundle.js && webpack --config configs/webpack.config.js && rimraf src/**/*.js.map",
+    "build": "yarn clean && tsc -p configs/tsconfig.json && npx babel src/index.js --out-file src/bundle.js && webpack --config configs/webpack.config.js && rimraf src/**/*.js.map",
     "dev": "webpack-dev-server --content-base . --inline --hot",
-    "clean": "rimraf npm-debug.log* src/**/*.js",
-    "distclean": "rimraf dist",
+    "clean": "rimraf npm-debug.log* src/**/*.js.map src/bundle.js views/js/index.js",
     "lint": "tslint --force './src/**/*.ts'",
     "doc": "./node_modules/.bin/esdoc -c ./configs/esdoc-config.json"
   },
