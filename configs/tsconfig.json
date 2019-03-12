@@ -9,11 +9,16 @@
     "moduleResolution": "node",
     "target": "es6",
     "outDir": "../src",
-    "jsx": "React"
+    "jsx": "React",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["../src/components/*"],
+      "@models/*": ["../src/models/*"]
+    }
   },
   "include": [
     "../src/**/*.tsx",
-    "../src/**/*.css"
+    "../src/**/*.ts"
   ],
   "exclude": [
     "node_modules"

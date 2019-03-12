@@ -1,4 +1,4 @@
-{
+module.exports = {
   "title": "Maxime Tavernier - Portfolio en ligne",
   "sections": [
     {
@@ -459,11 +459,11 @@
               "short": "Chant",
               "caption": "Les petits chanteurs d'Asnières - 2014"
             },
-						{
-							"src": "/assets/music/sono.png",
-							"short": "Sonorisation",
-							"caption": "Installation & mixage pour quelques concerts"
-						}
+            {
+                "src": "/assets/music/sono.png",
+                "short": "Sonorisation",
+                "caption": "Installation & mixage pour quelques concerts"
+            }
           ]
         },
         {
@@ -662,4 +662,4 @@
       }
     }
   ]
-}
+};
