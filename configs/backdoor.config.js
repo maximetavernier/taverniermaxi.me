@@ -1,10 +1,16 @@
 const path = require('path');
 
+function resolve(dir) {
+  return path.resolve(__dirname, '..', dir);
+}
+
 module.exports = {
-  entry: ['./backdoor/js/index.js'],
+  entry: [
+      './backdoor/js/index.js'
+  ],
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'backdoor/dist')
+    path: resolve('backdoor/dist')
   },
   module: {
     loaders: [
