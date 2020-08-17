@@ -1,0 +1,771 @@
+@media only screen and (max-width: 1550px) {
+    /**
+     * Global
+     */
+    .about .container,
+    .exps .container,
+    .technos .container,
+    .projects .container,
+    .passions .container {
+        width: 1280px;
+    }
+
+    .technos i, .contact i {
+        font-size: 50px;
+    }
+
+    /**
+     * About section
+     */
+    .about .about-container {
+        width: 620px;
+        padding: 1.6em;
+        box-shadow: 40px 72px 40px rgba(0,0,0,0.5);
+        outline: 1px solid transparent;
+    }
+
+    .about .about-container .clipped {
+        padding: 1.6em;
+    }
+
+    .about .about-container h2 {
+        font-size: 76px;
+    }
+
+    .about .about-profil figcaption {
+        padding: 1.7em;
+        font-size: 1.4em;
+    }
+
+    .about .about-profil {
+        min-width: 240px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .about .about-container .about-descr {
+        margin: 1.75em;
+        font-size: 1.125em;
+    }
+
+    .about .about-container .about-descr span {
+        font-size: 1.5em;
+    }
+
+    .about .next-button {
+        font-size: 0.80em;
+        padding: 18px 35px;
+    }
+
+    /**
+     * Exps section
+     */
+    .exps .card {
+        width: 25%;
+    }
+
+    .exps .card_image {
+        height: 150px;
+    }
+
+    .exps .card_content {
+        padding: 2%;
+    }
+
+    .exps .card_title {
+        font-weight: 300;
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .exps .card_subtitle {
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .exps .card_descr, .exps .card_year {
+        font-weight: 100;
+        font-size: 11px;
+    }
+
+    .exps .card_descr {
+        margin-top: 12px;
+    }
+
+    /**
+     * Technos section
+     */
+    .tilter {
+        margin: 1.25em 2em;
+    }
+
+    a.tilter,
+    a.tilter img,
+    a.tilter .tilter_figure {
+        width: 250px;
+        height: 345px;
+    }
+
+    .projects i {
+        font-size: 1.9em;
+    }
+
+    .tilter_title {
+        font-size: 1.8em;
+    }
+
+    .tilter_description {
+        font-size: .75em;
+    }
+
+    /**
+     * Project section
+     */
+
+    /**
+     * Passions section
+     */
+    :root {
+        --folder-width: 6.5em;
+    }
+
+    .folder_caption {
+        font-size: 16px;
+    }
+
+    /**
+     * Contact section
+     */
+    .icon-action {
+        font-size: 1.2em;
+        border: 1.5px solid;
+        padding: 12px;
+        top: 12px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    /**
+     * Global
+     */
+    .about .container,
+    .exps .container,
+    .technos .container,
+    .projects .container,
+    .passions .container {
+        width: 980px;
+    }
+
+    .contact i, .technos i {
+        font-size: 40px;
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    /**
+     * About section
+     */
+    .about .about-container {
+        width: 540px;
+        padding: 1.2em;
+        box-shadow: 30px 64px 30px rgba(0,0,0,0.5);
+    }
+
+    .about .about-container .clipped {
+        padding: 1.4em;
+    }
+
+    .about .about-container h2 {
+        font-size: 60px;
+    }
+
+    .about .about-profil figcaption {
+        padding: 1.4em;
+        font-size: 1.25em;
+    }
+
+    .about .about-profil {
+        min-width: 200px;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .about .about-container .about-descr span {
+        font-size: 1.25em;
+    }
+
+    .about .about-container .about-descr {
+        margin: 1.5em;
+        font-size: 1em;
+    }
+
+    .about .next-button {
+        font-size: 0.75em;
+        padding: 15px 30px;
+    }
+
+    /**
+     * Exps section
+     */
+    .exps .card {
+        width: 22%;
+    }
+
+    .exps .card_image {
+        height: 120px;
+    }
+
+    .exps .card_content {
+        padding: 4%;
+    }
+
+    .exps .card_title {
+        font-weight: 200;
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    .exps .card_subtitle {
+        display: none;
+    }
+
+    .exps .card_descr, .exps .card_year {
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+    .exps .card_descr {
+        margin-top: 8px;
+    }
+
+    /**
+     * Technos section
+     */
+    .technos h3 {
+        font-size: 22px;
+    }
+
+    .technos .col-md-6 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /**
+     * Project section
+     */
+
+    .projects section.row {
+        width: 1200px;
+    }
+
+    .tilter {
+        margin: 1em 2em;
+    }
+
+    a.tilter,
+    a.tilter img,
+    a.tilter .tilter_figure {
+        width: 200px;
+        height: 276px;
+    }
+
+    .projects i {
+        font-size: 1.8em;
+    }
+
+    .tilter_title {
+        font-size: 1.4em;
+    }
+
+    .tilter_description {
+        font-size: .65em;
+    }
+
+    /**
+     * Passions section
+     */
+    :root {
+        --folder-width: 5.5em;
+    }
+
+    .folder_caption {
+        font-size: 14px;
+    }
+
+    /**
+     * Contact section
+     */
+    .contact .fa-linkedin, .technos .devicons {
+        padding: 20px 20px;
+    }
+    .contact i {
+        margin: 60px 15px;
+    }
+
+    .icon-action {
+        font-size: 1em;
+        border: 1.2px solid;
+        padding: 10px;
+        top: 10px;
+    }
+}
+
+@media only screen and (min-width:980px) and (max-width:991px) {
+    /**
+     * Global
+     */
+
+    /**
+     * About section
+     */
+
+    /**
+     * Exps section
+     */
+
+    /**
+     * Technos section
+     */
+
+    /**
+     * Project section
+     */
+
+    /**
+     * Passions section
+     */
+
+    /**
+     * Contact section
+     */
+}
+
+@media only screen and (max-width:980px) {
+    /**
+     * Global
+     */
+    .about .container,
+    .exps .container,
+    .technos .container,
+    .projects .container,
+    .passions .container {
+        width: 800px;
+    }
+
+    .contact i, .technos i {
+        font-size: 30px;
+        padding: 15px;
+        margin: 0 10px;
+    }
+
+    /**
+     * About section
+     */
+    .about .about-container {
+        width: 460px;
+        padding: 1.2em;
+        box-shadow: 25px 50px 25px rgba(0,0,0,0.5);
+    }
+
+    .about .about-container .clipped {
+        padding: 1em;
+    }
+
+    .about .about-container h2 {
+        font-size: 50px;
+    }
+
+    .about .about-profil figcaption {
+        padding: 1.2em;
+        font-size: 1.15em;
+    }
+
+    .about .about-profil {
+        min-width: 180px;
+        max-width: 220px;
+        max-height: 220px;
+    }
+
+    .about .about-profil figcaption {
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    .about .about-container .about-descr {
+        margin: 1.2em;
+        font-size: 1em;
+    }
+
+    .about .about-container .about-descr span {
+        font-size: 1.15em;
+    }
+
+    .about .next-button {
+        font-size: 0.70em;
+        padding: 12px 25px;
+    }
+
+    /**
+     * Exps section
+     */
+    .exps .card {
+        width: 28%;
+    }
+
+    .exps .card_image {
+        height: 100px;
+    }
+
+    .exps .card_content {
+        margin-bottom: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .exps .card_title {
+        vertical-align: middle;
+        margin: 20% 0 auto;
+    }
+
+    .exps .card_descr {
+        display: none;
+    }
+    /**
+     * Technos section
+     */
+    .technos .row {
+        margin-right: 50px;
+    }
+
+    .technos h3 {
+        font-size: 20px;
+    }
+
+    .technos .col-md-6 {
+        margin: 20px 0 auto;
+        width: 50% !important;
+        height: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .technos i {
+        font-size: 22px;
+        padding: 8px;
+        margin: 0 8px;
+    }
+
+    /**
+     * Project section
+     */
+    .tilter {
+        margin: .75em 1.5em;
+    }
+
+    a.tilter,
+    a.tilter img,
+    a.tilter .tilter_figure {
+        width: 150px;
+        height: 207px;
+    }
+
+    .tilter_caption {
+        padding: 1.2em 1em 1.2em;
+    }
+
+    .tilter_title {
+        font-size: 1em;
+    }
+
+    .tilter_description {
+        display: none;
+    }
+
+    /**
+     * Passions section
+     */
+    :root {
+        --folder-width: 4.5em;
+        --folder-padding-vert: calc(.75 * var(--folder-width));
+        --folder-padding-horz: calc(.5 * var(--folder-width));
+        --thumb-width: calc(.8 * var(--folder-width));
+    }
+
+    .passions-grid {
+        width: calc(2.5 * (2 * var(--folder-padding-vert) + var(--folder-width)));
+        margin-left: 25%;
+    }
+
+    .folder_caption {
+        font-size: 12px;
+    }
+
+    /**
+     * Contact section
+     */
+}
+
+@media only screen and (max-width:800px) {
+    /**
+     * Global
+     */
+    .about .container,
+    .exps .container,
+    .technos .container,
+    .projects .container,
+    .passions .container {
+        width: 600px;
+    }
+
+    .contact i, .technos i {
+        font-size: 25px;
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    /**
+     * About section
+     */
+    .about .about-container {
+        width: 420px;
+        padding: 1.1em;
+        box-shadow: 22px 45px 22px rgba(0,0,0,0.5);
+    }
+
+    .about .about-container .clipped {
+        padding: .8em;
+    }
+
+    .about .about-container h2 {
+        font-size: 45px;
+    }
+
+    .about .about-profil figcaption {
+        padding: 1em;
+        font-size: .8em;
+    }
+
+    .about .about-profil {
+        min-width: 150px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .about .about-container .about-descr {
+        margin: 1.1em;
+        font-size: .85em;
+    }
+
+    .about .about-container .about-descr span {
+        font-size: 1.1em;
+    }
+
+    .about .next-button {
+        padding: 10px 22px;
+    }
+
+    /**
+     * Exps section
+     */
+    .exps .card_title {
+        vertical-align: middle;
+        margin: 25% 0 auto;
+    }
+
+    /**
+     * Technos section
+     */
+    .technos .devicons {
+        padding: 10px 10px;
+    }
+
+    .technos h3 {
+        display: none !important;
+    }
+
+    .technos col-md-6 {
+        padding: 0 !important;
+    }
+
+    /**
+     * Project section
+     */
+    .tilter {
+        margin: .5em 1em;
+    }
+
+    a.tilter,
+    a.tilter img,
+    a.tilter .tilter_figure {
+        width: 110px;
+        height: 150px;
+    }
+
+    .tilter_caption {
+        padding: 1.2em .5em 1.2em;
+    }
+
+    .projects i {
+        font-size: 1.4em;
+    }
+
+    .tilter_title {
+        display: none;
+    }
+
+    /**
+     * Passions section
+     */
+    :root {
+        --folder-width: 3.8em;
+    }
+
+    .passions-grid {
+        margin-left: 22.5%;
+    }
+
+    .folder_caption {
+        font-size: 11px;
+    }
+
+    /**
+     * Contact section
+     */
+    .contact i {
+        margin: 30px 20px;
+        padding: 15px;
+        line-height: 1;
+    }
+    .contact .fa-linkedin {
+        padding: 15px 17px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:800px) {
+    /**
+     * Global
+     */
+    .pp-tableCell {
+        padding-top: 25px;
+    }
+
+    /**
+     * About section
+     */
+    .about-me h4 {
+        font-size: 20px;
+    }
+
+    .about-me h6 {
+        font-size: 12px;
+    }
+
+    /**
+     * Exps section
+     */
+    .exps .card_caption {
+        font-size: 1.25em;
+        padding: 35px 0px 0px;
+    }
+
+    /**
+     * Technos section
+     */
+    .technos {
+        padding: 0 32px;
+    }
+
+    .technos .col-md-6 {
+        display: inline;
+        padding-right: 0;
+        margin-left: -15px;
+    }
+    .technos .row {
+        margin-top: 20px;
+    }
+
+    /**
+     * Project section
+     */
+
+    /**
+     * Passions section
+     */
+
+    /**
+     * Contact section
+     */
+}
+
+@media only screen and (max-width: 600px) {
+    /**
+     * Global
+     */
+    .about .container,
+    .exps .container,
+    .technos .container,
+    .projects .container,
+    .passions .container {
+        width: 480px;
+    }
+
+    /**
+     * About section
+     */
+
+    /**
+     * Exps section
+     */
+    .exps h3 {
+        display: none;
+    }
+
+    .exps .card {
+        width: 96%;
+    }
+
+    .exps .card_title {
+        margin: 1.5em 0 auto;
+    }
+
+    /**
+     * Technos section
+     */
+    .tilter {
+        margin: .4em 1em;
+    }
+
+    a.tilter,
+    a.tilter img,
+    a.tilter .tilter_figure {
+        width: 88px;
+        height: 130px;
+    }
+
+    .projects i {
+        font-size: 1.2em;
+    }
+
+    /**
+     * Project section
+     */
+
+    /**
+     * Passions section
+     */
+    :root {
+        --folder-width: 3.2em;
+    }
+
+    .passions-grid {
+        margin-left: 20%;
+    }
+
+    .folder_caption {
+        font-size: 10px;
+    }
+
+    /**
+     * Contact section
+     */
+}

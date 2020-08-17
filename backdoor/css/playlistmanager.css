@@ -1,0 +1,441 @@
+body {
+    overflow:hidden;
+}
+
+/**
+ * Scene
+ */
+#clouds, #sky, #night, #stars {
+    position:absolute;
+    top:0%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    width:100%;
+}
+
+#sky {
+    background:#ECF0F1 url("../assets/Playlist Manager/sky.png") repeat-x top left;
+    z-index:1;
+}
+
+#sun_yellow {
+    position:absolute;
+    left:45%;
+    top:50%;
+    width:150px;
+    height:152px;
+    background:transparent url("../assets/Playlist Manager/sun.png") no-repeat center center;
+    z-index:2;
+}
+
+#sun_red {
+    position:absolute;
+    left:45%;
+    top:50%;
+    width:150px;
+    height:152px;
+    background:transparent url("../assets/Playlist Manager/sun2.png") no-repeat center center;
+    z-index:2;
+    opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#clouds {
+    background:transparent url("../assets/Playlist Manager/clouds.png") repeat-x top left;
+    z-index:3;
+}
+
+#ground {
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    width:100%;
+    height:232px;
+    background:transparent url("../assets/Playlist Manager/ground.png") repeat-x bottom center;
+    z-index:3;
+}
+
+#night {
+    background-color:#000;
+    z-index:4;
+    opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#stars {
+    bottom:200px;
+    background:transparent url("../assets/Playlist Manager/stars.png") repeat bottom center;
+    z-index:5;
+    opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#sstar {
+    position:absolute;
+    left:40%;
+    top:10%;
+    width:126px;
+    height:80px;
+    background:transparent url("../assets/Playlist Manager/shootingstar.png") no-repeat 80px -200px;
+    z-index:5;
+    opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+#moon {
+    position:absolute;
+    left:45%;
+    top:60%;
+    width:168px;
+    height:168px;
+    background:transparent url("../assets/Playlist Manager/moon.png") no-repeat center center;
+    z-index:6;
+    opacity:0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+/**
+ * Search navbar
+ */
+.header-search-navbar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    padding: 10px;
+    background: transparent;
+    transition: background .5s linear;
+}
+
+.opaque {
+    background: rgba(0, 0, 0, .4);
+}
+
+.search {
+    position: absolute;
+    left: 10%;
+    width: 75%;
+    height: 100%;
+    pointer-events: none;
+    top: -1em;
+}
+
+.button-search-close {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 2.5em;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    opacity: 0;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: opacity 0.5s, transform 0.5s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    text-decoration: none;
+    color: #ECF0F1;
+    outline: none;
+}
+
+.button-search-close:focus {
+    outline: none;
+}
+
+.search-open .button-search-close {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+    transition-delay: 0.1s;
+}
+
+.search-form {
+    position: relative;
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto;
+    z-index: 11;
+}
+
+.search-input {
+    font-family: inherit;
+    font-size: 5em;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1em 0.15em 0;
+    pointer-events: auto;
+    color: #ECF0F1;
+    border-bottom: 4px solid;
+    background: transparent;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+.search-input::-ms-clear {
+    display: none;
+}
+
+
+.search-suggestion {
+    width: 100%;
+    max-width: 700px;
+    margin: calc(35vh + 1em) auto 0;
+    text-align: left;
+    color: #ECF0F1;
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+    transition: opacity 0.2s, transform 0.5s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.search-open .search-suggestion {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: opacity 0.5s, transform 0.5s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.search-suggestion h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.search-suggestion h3::before {
+    content: '\21FE';
+    display: inline-block;
+    padding: 0 0.5em 0 0;
+}
+
+.search-open {
+    pointer-events: auto;
+    z-index: 15;
+}
+
+.search-form {
+    transform: scale3d(0.5,0.5,1);
+    transition: transform 0.5s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.search-open .search-form {
+    transform: translate3d(0,40vh,0) translate3d(0,-50%,0);
+}
+
+.icon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+    fill: currentColor;
+}
+
+.timer {
+    position: relative;
+    padding-right: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: right;
+}
+
+.timer span {
+    color: #ECF0F1;
+    font-size: 45px;
+}
+
+/**
+ * Tracklist
+ */
+.tracklist_table {
+    position: absolute;
+    width: 60%;
+    left: 5%;
+    top: 20%;
+    z-index: 12;
+    opacity: 1;
+    transition: opacity .25s linear;
+}
+
+.tracklist_table.transparent {
+    opacity: 0;
+    display: none;
+}
+
+.tracklist_table thead {
+    padding: .8em;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    color: #ECF0F1;
+    background: rgba(0, 0, 0, .7);
+}
+
+.tracklist_table tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+    color: #ECF0F1;
+    font-weight: lighter;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+}
+
+.tracklist_table tr {
+    display: flex;
+    width: 100%;
+    padding: .8em;
+}
+
+.tracklist_table th,
+.tracklist_table td {
+    width: 24%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tracklist_table tbody tr {
+    background: rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.tracklist_table td i.glyphicon,
+.suggestions_table td i.glyphicon,
+.pendinglist_table td i.glyphicon {
+    font-weight: bolder;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ECF0F1;
+}
+
+.tracklist_table td i.glyphicon,
+.suggestions_table td i.glyphicon {
+    color: green;
+}
+
+.pendinglist_table td i.glyphicon {
+    color: red;
+}
+
+/**
+ * Suggestions
+ */
+.suggestions_table {
+    position: relative;
+    width: 100%;
+    top: 1em;
+}
+
+.suggestions_table tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 275px;
+    color: #ECF0F1;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.suggestions_table tr {
+    display: flex;
+    width: 100%;
+    padding: .8em;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.suggestions_table td {
+    width: 24%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/**
+ * Pending
+ */
+.pendinglist {
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    z-index: 12;
+    background: url('../assets/Playlist Manager/paper_sheet.png') no-repeat transparent;
+    height: 600px;
+    width: 475px;
+    padding: 150px 75px 10px 15px;
+    opacity: 1;
+    transition: opacity .25s linear;
+}
+
+.pendinglist.transparent {
+    opacity: .3;
+}
+
+.pendinglist_table {
+    position: relative;
+    margin: 0;
+    padding: 5em;
+    color: black;
+    width: 100%;
+    max-height: 450px;
+}
+
+.pendinglist_table thead {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pendinglist_table tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 350px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.pendinglist_table tr {
+    display: flex;
+    width: 100%;
+    padding: .8em;
+}
+
+.pendinglist_table th {
+    text-align: center;
+}
+
+.pendinglist_table th,
+.pendinglist_table td {
+    vertical-align: middle;
+}
+
+.pendinglist_table th:first-child,
+.pendinglist_table td:first-child {
+    width: 85%;
+}
+
+.pendinglist_table th:last-child,
+.pendinglist_table td:last-child {
+    width: 15%;
+}
+
+.pendinglist_table tbody tr {
+    margin-left: .5em;
+}

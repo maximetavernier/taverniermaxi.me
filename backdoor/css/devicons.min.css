@@ -1,0 +1,146 @@
+/*!
+ * Devicons 1.8.1
+ * Made by Theodore Vorillas
+ * Customed by Maxime Tavernier
+ */
+.devicons-heart:before {
+  content: "\e024";
+}
+.devicons-share:before {
+  content: "\e081";
+}
+.devicons-cross:before {
+  content: "\e117";
+}
+.devicons-download:before {
+  content: "\e122";
+}
+.devicons-help:before {
+  content: "\e911";
+}
+.devicons-androidstudio:before {
+  content: "\e909";
+}
+.devicons-googleplus:before {
+  content: "\e90a";
+}
+.devicons-gradle:before {
+  content: "\e90b";
+}
+.devicons-jetbrains:before {
+  content: "\e90c";
+}
+.devicons-linkedin:before {
+  content: "\e90d";
+}
+.devicons-solr:before {
+  content: "\e90e";
+}
+.devicons-twitter:before {
+  content: "\e90f";
+}
+.devicons-vs:before {
+  content: "\e910";
+}
+.devicons-ansible:before {
+  content: "\e901";
+}
+.devicons-materiald:before {
+  content: "\e902";
+}
+.devicons-memcached:before {
+  content: "\e903";
+}
+.devicons-neo4j:before {
+  content: "\e904";
+}
+.devicons-retrofit:before {
+  content: "\e905";
+}
+.devicons-rxjava:before {
+  content: "\e906";
+}
+.devicons-vertx:before {
+  content: "\e907";
+}
+.devicons-vagrant:before {
+  content: "\e908";
+}
+.devicons-react:before {
+  content: "\e900";
+}
+.devicons-git:before {
+  content: "\e602";
+}
+.devicons-codrops:before {
+  content: "\e62f";
+}
+.devicons-bitbucket:before {
+  content: "\e603";
+}
+.devicons-github_full:before {
+  content: "\e617";
+}
+.devicons-java:before {
+  content: "\e638";
+}
+.devicons-php:before {
+  content: "\e63d";
+}
+.devicons-mysql:before {
+  content: "\e604";
+}
+.devicons-jquery:before {
+  content: "\e650";
+}
+.devicons-javascript_shield:before {
+  content: "\e64f";
+}
+.devicons-css3:before {
+  content: "\e649";
+}
+.devicons-html5:before {
+  content: "\e636";
+}
+.devicons-joomla:before {
+  content: "\e641";
+}
+.devicons-npm:before {
+  content: "\e61e";
+}
+.devicons-linux:before {
+  content: "\e612";
+}
+.devicons-ubuntu:before {
+  content: "\e63a";
+}
+.devicons-android:before {
+  content: "\e60e";
+}
+.devicons-dropbox:before {
+  content: "\e607";
+}
+.devicons-google_drive:before {
+  content: "\e631";
+}
+.devicons-rasberry_pi:before {
+  content: "\e622";
+}
+.devicons-w3c:before {
+  content: "\e66c";
+}
+.devicons-postgresql:before {
+  content: "\e66e";
+}
+.devicons-debian:before {
+  content: "\e67d";
+}
+.devicons-dotnet:before {
+  content: "\e67f";
+}
+.devicons-msql_server:before {
+  content: "\e67c";
+}
+.devicons-terminal:before {
+  content: "\e695";
+}
