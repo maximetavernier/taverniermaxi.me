@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es6",
+    "outDir": "../build",
+    "jsx": "React",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["../src/backdoor/components/*"],
+      "@models/*": ["../src/backdoor/models/*"],
+      "@libs/*": ["../src/backdoor/libs/*"]
+    }
+  },
+  "include": [
+    "../src/backdoor/**/*.tsx",
+    "../src/backdoor/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

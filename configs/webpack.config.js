@@ -5,24 +5,33 @@ function resolve(dir) {
 }
 
 module.exports = {
+  mode: 'none',
   entry: [
-      './js/index.js'
+    resolve('build/bundle.js'),
   ],
   output: {
-    filename: 'bundle.js',
-    path: resolve('dist')
+    filename: 'index.js',
+    path: resolve('assets/js'),
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.js?$/,
+        test: /\.(js|jsx)?$/,
         exclude: /(node_modules)/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'env'],
-          plugins: ['add-module-exports', 'react-html-attrs', 'transform-class-properties']
-        }
+        use: [ 'babel-loader' ],
+      },
+      {
+        test: /\.css$/,
+        exclude: /(node_modules)/,
+        use: [ 'style-loader', 'css-loader' ],
       }
     ]
+  },
+  resolve: {
+    extensions: ['.css', '.js', '.jsx'],
+    alias: {
+      '@components': resolve('build/www/components'),
+      '@models': resolve('build/www/models'),
+    }
   }
 };

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es6",
+    "outDir": "../build/www",
+    "jsx": "React",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["../src/www/components/*"],
+      "@models/*": ["../src/www/models/*"],
+      "@libs/*": ["../src/www/libs/*"]
+    },
+    "typeRoots": [
+      "../src/@types",
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "../src/@extensions",
+    "../src/www/**/*.tsx",
+    "../src/www/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}
